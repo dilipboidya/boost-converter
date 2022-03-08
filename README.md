@@ -46,9 +46,26 @@ be explained as follows
 flowing through the inductor stores electric energy by generating magnetic field around it. 
 2) When the transistor is turned OFF, inductor will
 pump out its stored energy through the diode and current will start flowing through it[2]. At higher switching speed inductor will not be able
-to discharge fully in between charging stages which as a result, a voltage higher than the input voltage will be developed at its output. Using Verilog the PWM signal can be generated to drive the gate of the transistor.
+to discharge fully in between charging stages which as a result, a voltage higher than the input voltage will be developed at its output. Using Verilog the PWM signal can be generated to drive the gate of the transistor. 
 
 ##
+
+
+## Software Used
+# eSim
+It is an open source Electronics Design Automation by FOSSEE, IIT Bombay. It is made using NgSpice and Kicad.
+More at ********************
+
+# NgSpice
+It is used for spice simulations, it is an Open Source Software.
+For more details visit **************
+
+# Makerchip
+It is an Online Web Browser IDE for Verilog/System-Verilog/TL-Verilog Simulation.
+More details here ***************
+# Verilator
+It is a tool used to convert Verilog code to C++ objects.
+Visit: ******************
 
 ## Acknowlegdements
 1. FOSSEE, IIT Bombay
