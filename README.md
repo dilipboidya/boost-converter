@@ -67,6 +67,17 @@ More details here ***************
 It is a tool used to convert Verilog code to C++ objects.
 Visit: ******************
 
+## Steps to run this project
+1. Open a new terminal 
+2. Clone this project using the following command:
+git clone************
+3. Change directory:
+   cd filename*********
+4. Run NgSpice: ngspice filename.cir.out**************
+5.  To run this project in eSim:
+-  Run eSim
+-  Load the project
+-  Open eeSchema
 ## Acknowlegdements
 1. FOSSEE, IIT Bombay
 2. Steve Hoover, Founder, Redwood EDA
