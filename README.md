@@ -54,25 +54,33 @@ to discharge fully in between charging stages which as a result, a voltage highe
 ## Software Used
 # eSim
 It is an open source Electronics Design Automation by FOSSEE, IIT Bombay. It is made using NgSpice and Kicad.
-More at ********************
+More at:
+</br>
+https://esim.fossee.in/home
 
 # NgSpice
 It is used for spice simulations, it is an Open Source Software.
-For more details visit **************
+For more details visit:
+</br>
+http://ngspice.sourceforge.net/docs.html
 
 # Makerchip
 It is an Online Web Browser IDE for Verilog/System-Verilog/TL-Verilog Simulation.
-More details here ***************
+More details here 
+</br> https://www.makerchip.com/
 # Verilator
 It is a tool used to convert Verilog code to C++ objects.
-Visit: ******************
+Visit: 
+https://www.veripool.org/verilator/
 
 ## Analog version of stepup converter in eSim
+
 # Schematic Diagram 
 ![analog schematic diagram of sc](https://user-images.githubusercontent.com/43288153/157669728-ca62d6e3-4640-4d27-83ae-712b604af607.jpg)
 fig: Schematic diagram of stepup converter.
 
-#Netlists
+# Netlists
+
 ![netlists of analog sc](https://user-images.githubusercontent.com/43288153/157676669-dbc47ade-28f6-4121-b2b2-f040410aeb6e.jpg)
 
 
@@ -129,6 +137,28 @@ endmodule
 ## Makerchip Plots
 ![makerchip plot](https://user-images.githubusercontent.com/43288153/157675141-15fbd795-b4ac-49f7-aff4-80c1f454fc0c.jpg)
 
+## Netlists
+![mixed signal netlists](https://user-images.githubusercontent.com/43288153/157677916-e29f6a6b-2971-45b7-a70b-c8fa5b9caea2.jpg)
+
+## NgSpice Plots
+![Vin](https://user-images.githubusercontent.com/43288153/157678106-845a1bfc-7473-4942-b1da-57ea92a8cd80.jpg)
+fig: input voltage
+
+![Vout](https://user-images.githubusercontent.com/43288153/157678268-646f999d-6118-4dc1-bb18-9ccea4df3586.jpg)
+fig: output voltage
+
+## GAW Plots
+![GAW output](https://user-images.githubusercontent.com/43288153/157678382-5974b37d-45bc-4bee-b269-0f2b562c8ba0.jpg)
+
+## Steps to run generate NgVeri Model
+1. Open eSim
+2. Run NgVeri-Makerchip 
+3. Add top level verilog file in Makerchip Tab
+4. Click on NgVeri tab
+5. Add dependency files
+6. Click on Run Verilog to NgSpice Converter
+7. Debug if any errors
+8. Model created successfully
 
 ## Steps to run this project
 1. Open a new terminal 
