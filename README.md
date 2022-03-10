@@ -1,5 +1,3 @@
-# boost-converter
-A boost converter is  designed and simulated  using eSim and maker chip tools.
 
 # Mixed Signal Circuit Design and Simulation Marathon
 ## Boost Converter
@@ -77,7 +75,7 @@ https://www.veripool.org/verilator/
 
 # Schematic Diagram 
 ![analog schematic diagram of sc](https://user-images.githubusercontent.com/43288153/157669728-ca62d6e3-4640-4d27-83ae-712b604af607.jpg)
-fig: Schematic diagram of stepup converter.
+fig: Schematic diagram of stepup converter
 
 # Netlists
 
