@@ -73,37 +73,9 @@ Visit: ******************
 fig: Schematic diagram of stepup converter.
 
 #Netlists
-* c:\users\hp\esim-workspace\stepup_converter\stepup_converter.cir
+![netlists of analog sc](https://user-images.githubusercontent.com/43288153/157676669-dbc47ade-28f6-4121-b2b2-f040410aeb6e.jpg)
 
-.include NPN.lib
-.include schottky.lib
-v1 input gnd  dc 12
-l1  input vl 100u
-c1  output gnd 100u
-r1  output gnd 100
-v2  pwm gnd pulse(0 5 0 1n 1n 20u 40u)
-* u3  output plot_v1
-* u1  input plot_v1
-* u2  pwm plot_v1
-d1 il output 1N5819
-q1 il pwm gnd Q2N2222
-* u4  input vl plot_v2
-* u5  vl il plot_i2
-v_u5 vl il 0
-.tran 1e-03 10e-03 0e-03
 
-* Control Statements 
-.control
-run
-print allv > plot_data_v.txt
-print alli > plot_data_i.txt
-plot v(output)
-plot v(input)
-plot v(pwm)
-plot v(input,vl)
-plot i(v_u5)
-.endc
-.end
 # NgSpice Plot
 ![analog sc waveform](https://user-images.githubusercontent.com/43288153/157670957-ebefb7b5-2044-4ad9-8fcc-c5ce2466d3a1.jpg)
 fig: Waveform of stepup converter
@@ -113,10 +85,12 @@ fig: Waveform of stepup converter
 # Circuit Diagram in eSim
 ![sc_test schematic diagram](https://user-images.githubusercontent.com/43288153/157671378-5e195dab-eff9-4975-92c4-b032d48cb705.jpg)
 fig: circuit diagram of stepup converter
-#Verilog Code
+# Verilog Code
+![verilog code](https://user-images.githubusercontent.com/43288153/157676196-54c1dbf3-7a58-4311-b8fa-3750b56d2950.jpg)
 
 
-##Makerchip
+## Makerchip
+
 \TLV_version 1d: tl-x.org
 \SV
 /* verilator lint_off UNUSED*/  /* verilator lint_off DECLFILENAME*/  /* verilator lint_off BLKSEQ*/  /* verilator lint_off WIDTH*/  /* verilator lint_off SELRANGE*/  /* verilator lint_off PINCONNECTEMPTY*/  /* verilator lint_off DEFPARAM*/  /* verilator lint_off IMPLICIT*/  /* verilator lint_off COMBDLY*/  /* verilator lint_off SYNCASYNCNET*/  /* verilator lint_off UNOPTFLAT */  /* verilator lint_off UNSIGNED*/  /* verilator lint_off CASEINCOMPLETE*/  /* verilator lint_off UNDRIVEN*/  /* verilator lint_off VARHIDDEN*/  /* verilator lint_off CASEX*/  /* verilator lint_off CASEOVERLAP*/  /* verilator lint_off PINMISSING*/  /* verilator lint_off BLKANDNBLK*/  /* verilator lint_off MULTIDRIVEN*/  /* verilator lint_off WIDTHCONCAT*/  /* verilator lint_off ASSIGNDLY*/  /* verilator lint_off MODDUP*/  /* verilator lint_off STMTDLY*/  /* verilator lint_off LITENDIAN*/  /* verilator lint_off INITIALDLY*/  
