@@ -16,11 +16,12 @@
 - [Makerchip](#makerchip-1)
 - [Makerchip Plots](#makerchip-plots)
 - [Netlists](#netlists)
-
-
-
+- [NgSpice Plots](#ngspice-plots)
+- [GAW Plots](#gaw-plots)
+- [Steps to run generate NgVeri Model](#steps-to-run-generate-ngveri-model)
+- [Steps to run this project](#steps-to-run-this-project)
 - [Acknowlegdements](#acknowlegdements)
-- [References](#acknowlegdements)
+- [References](#references)
 
 ## Abstract
 This paper presents a design of mixed signal on step-up converter to boost the input voltage. The step-up converter presented here offers a good efficiency performance. The proposed converter is designed in eSim tool, makerchip and Verilator.
