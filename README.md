@@ -49,49 +49,49 @@ to discharge fully in between charging stages which as a result, a voltage highe
 ##
 
 
-## Software Used
-# eSim
+# Software Used
+## eSim
 It is an open source Electronics Design Automation by FOSSEE, IIT Bombay. It is made using NgSpice and Kicad.
 More at:
 </br>
 https://esim.fossee.in/home
 
-# NgSpice
+## NgSpice
 It is used for spice simulations, it is an Open Source Software.
 For more details visit:
 </br>
 http://ngspice.sourceforge.net/docs.html
 
-# Makerchip
+## Makerchip
 It is an Online Web Browser IDE for Verilog/System-Verilog/TL-Verilog Simulation.
 More details here 
 </br> https://www.makerchip.com/
-# Verilator
+## Verilator
 It is a tool used to convert Verilog code to C++ objects.
 Visit: 
 https://www.veripool.org/verilator/
 
-## Analog version of stepup converter in eSim
+# Analog version of stepup converter in eSim
 
-# Schematic Diagram 
+## Schematic Diagram 
 ![analog schematic diagram of sc](https://user-images.githubusercontent.com/43288153/157669728-ca62d6e3-4640-4d27-83ae-712b604af607.jpg)
 fig: Schematic diagram of stepup converter
 
-# Netlists
+## Netlists
 
 ![netlists of analog sc](https://user-images.githubusercontent.com/43288153/157676669-dbc47ade-28f6-4121-b2b2-f040410aeb6e.jpg)
 
 
-# NgSpice Plot
+## NgSpice Plot
 ![analog sc waveform](https://user-images.githubusercontent.com/43288153/157670957-ebefb7b5-2044-4ad9-8fcc-c5ce2466d3a1.jpg)
 fig: Waveform of stepup converter
 
-## Mixed Signal based stepup converter
+# Mixed Signal based stepup converter
 
-# Circuit Diagram in eSim
+## Circuit Diagram in eSim
 ![sc_test schematic diagram](https://user-images.githubusercontent.com/43288153/157671378-5e195dab-eff9-4975-92c4-b032d48cb705.jpg)
 fig: circuit diagram of stepup converter
-# Verilog Code
+## Verilog Code
 ![verilog code](https://user-images.githubusercontent.com/43288153/157676196-54c1dbf3-7a58-4311-b8fa-3750b56d2950.jpg)
 
 
