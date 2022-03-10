@@ -144,7 +144,7 @@ endmodule
 
 ## Makerchip Plots
 ![makerchip plot](https://user-images.githubusercontent.com/43288153/157675141-15fbd795-b4ac-49f7-aff4-80c1f454fc0c.jpg)
-fig9:makerchip plot
+fig9: makerchip plot
 
 ## Netlists
 ![mixed signal netlists](https://user-images.githubusercontent.com/43288153/157677916-e29f6a6b-2971-45b7-a70b-c8fa5b9caea2.jpg)
