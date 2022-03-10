@@ -1,6 +1,6 @@
 
 # Mixed Signal Circuit Design and Simulation Marathon
-## Boost Converter
+## Boost Converter or stepup converter
 
 - [Abstract](#abstract)
 - [Reference Circuit Diagram](#reference-circuit-diagram)
