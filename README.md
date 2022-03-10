@@ -11,13 +11,20 @@
   * [NgSpice](#ngspice)
   * [Makerchip](#makerchip)
   * [Verilator](#verilator)
-- [Circuit Diagram in eSim](#circuit-diagram-in-esim)
-- [Verilog Code](#verilog-code)
-- [Makerchip](#makerchip-1)
-- [Makerchip Plots](#makerchip-plots)
-- [Netlists](#netlists)
-- [NgSpice Plots](#ngspice-plots)
-- [GAW Plots](#gaw-plots)
+- [Analog version of stepup converter in eSim](#analog-version-of-stepup-converter-in-eSim)
+  * [Schematic Diagram](#Schematic-diagram)
+  * [Netlists](#etlists)
+  * [NgSpice Plot](#ngspice-plot)
+ 
+- [Mixed Signal based stepup converter](#mixed-signal-based-stepup-converter)
+  * [Circuit Diagram in eSim](#circuit-diagram-in-esim)
+  * [Verilog Code](#verilog-code)
+  * [Makerchip](#makerchip)
+  * [Makerchip Plots](#makerchip-plots)
+  * [Netlists](#netlists)
+  * [NgSpice Plots](#ngspice-plots)
+  * [GAW Plots](#gaw-plots) 
+
 - [Steps to run generate NgVeri Model](#steps-to-run-generate-ngveri-model)
 - [Steps to run this project](#steps-to-run-this-project)
 - [Acknowlegdements](#acknowlegdements)
@@ -163,11 +170,9 @@ fig: output voltage
 1. Open a new terminal 
 2. Clone this project using the following command:</br>
 ```git clone https:///github.com/dilipboidya/boost-converter.git ```</br>
-3. Change directory:</br>
-```cd eSim_project_files/boost-converter```</br>
-4. Run NgSpice:</br>
+3. Run NgSpice:</br>
 ```ngspice sc_test.cir.out```</br>
-5.  To run this project in eSim:
+4.  To run this project in eSim:
 -  Run  eSim</br>
 -  Load the project</br>
 -  Open eeSchema</br>
