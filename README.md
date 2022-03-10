@@ -79,7 +79,9 @@ https://www.veripool.org/verilator/
 # Analog version of stepup converter in eSim
 
 ## Schematic Diagram 
-NOTE: For switching purpose a BJT is used, however a power n-channel MOSFET can also be used for that a model file must be created in eSim beforehand.
+NOTE: For switching purpose a BJT is used, however a power n-channel MOSFET can also be used for that a model file must be created in eSim beforehand
+
+
 ![analog schematic diagram of sc](https://user-images.githubusercontent.com/43288153/157669728-ca62d6e3-4640-4d27-83ae-712b604af607.jpg)
 fig4: Schematic diagram of stepup converter
 
