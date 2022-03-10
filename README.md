@@ -162,14 +162,18 @@ fig: output voltage
 ## Steps to run this project
 1. Open a new terminal 
 2. Clone this project using the following command:
-git clone************
+
+</br>
+```git clone https:///github.com/dilipboidya/boost-converter.git ```</br>
 3. Change directory:
-   cd filename*********
-4. Run NgSpice: ngspice filename.cir.out**************
+   </br>
+```cd eSim_project_files/boost-converter```</br>
+4. Run NgSpice: </br>
+```ngspice sc_test.cir.out```</br>
 5.  To run this project in eSim:
--  Run eSim
--  Load the project
--  Open eeSchema
+-  Run  eSim</br>
+-  Load the project</br>
+-  Open eeSchema</br>
 ## Acknowlegdements
 1. FOSSEE, IIT Bombay
 2. Steve Hoover, Founder, Redwood EDA
