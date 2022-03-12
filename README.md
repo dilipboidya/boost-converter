@@ -176,7 +176,7 @@ fig13: GAW plots
 2. Clone this project using the following command:</br>
 ```git clone https:///github.com/dilipboidya/boost-converter.git ```</br>
 3. Change directory:</br>
-```cd eSim_project_files/xor_xnor```</br>
+```cd eSim_project_files/sc_test```</br>
 4. Run NgSpice:</br>
 ```ngspice sc_test.cir.out```</br>
 5.  To run this project in eSim:
